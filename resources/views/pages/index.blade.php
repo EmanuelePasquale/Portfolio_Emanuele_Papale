@@ -4,7 +4,7 @@
     <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade"
         data-aos-delay="1500">
         <div class="container">
-            <div class="row justify-content-center" style="height: 350px;">
+            <div class="row justify-content-center" style="height: 380px;">
                 <div class="col-lg-6 text-center">
                     <span>
                         <h2 id="testo" style="height: 40px;"></h2>
@@ -22,6 +22,12 @@
                 </div>
             </div>
         </div>
+        <span class="square square-tl"></span>
+        <span class="square square-tr"></span>
+        <span class="square square-bl"></span>
+        <span class="square square-br"></span>
+        <span class="star star1"></span>
+        <span class="star star2"></span>
     </section><!-- End Hero Section -->
 
     <main id="main" data-aos="fade" data-aos-delay="1500">
