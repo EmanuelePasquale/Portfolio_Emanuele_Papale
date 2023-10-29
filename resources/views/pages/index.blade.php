@@ -4,7 +4,7 @@
     <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade"
         data-aos-delay="1500">
         <div class="container">
-            <div class="row justify-content-center" style="height: 360px;">
+            <div class="row justify-content-center" style="height: 350px;">
                 <div class="col-lg-6 text-center">
                     <span>
                         <h2 id="testo" style="height: 40px;"></h2>

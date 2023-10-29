@@ -46,7 +46,7 @@ import '/vendor/swiper/swiper-bundle.min.js';
     mostraProssimaLettera();
 }
 
-// Esempio di utilizzo:
+// Regole di utilizzo:
 const elementoTesto = document.getElementById("testo"); // Sostituire "testo" con l'ID dell elemento HTML
 const testoDaMostrare = "I'm Emanuele Papale"; // Sostituire con il testo da mostrare
 const intervalloTraLettere = 200; // Tempo in millisecondi tra una lettera e l'altra
