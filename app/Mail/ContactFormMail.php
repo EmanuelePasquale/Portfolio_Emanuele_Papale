@@ -2,6 +2,7 @@
 
 namespace App\Mail;
 
+use App\Models\User;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
@@ -13,20 +14,14 @@ class ContactFormMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $data;
+    public $content;
 
     /**
    * Create a new message instance.
    */
-  public function __construct(User $data)
+  public function __construct($content)
   {
-      $this->data = $data;
-  }
-
-  public function build()
-  {
-      return $this->from('')->subject('Messaggio di contatto')
-          ->view('page.contact');
+      $this->content = $content;
   }
 
   /**
@@ -35,7 +30,7 @@ class ContactFormMail extends Mailable
   public function envelope(): Envelope
   {
       return new Envelope(
-          subject: 'Contact Form PortfolioMail',
+          subject: 'Contatto dal Form_Portfolio',
       );
   }
 
@@ -45,7 +40,7 @@ class ContactFormMail extends Mailable
   public function content(): Content
   {
       return new Content(
-          view: 'pages.mail.contact',
+          view: 'pages.mail-contact',
       );
   }
 

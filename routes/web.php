@@ -16,4 +16,4 @@ Route::get('/project-detail/{uri}', [ProjectController::class,'detail'])->name('
 Route::get('/service-detail/{uri}', [ServiceController::class,'detail'])->name('service-detail');
 
 Route::get('/contact', [PageController::class,'contact'])->name('contact');
-Route::post('/contact', [MailController::class,'send'])->name('email');
+Route::post('/send-mail', [MailController::class,'send'])->name('send');

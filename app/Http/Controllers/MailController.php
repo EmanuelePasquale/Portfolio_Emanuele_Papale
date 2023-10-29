@@ -4,7 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Mail\ContactFormMail;
 use Illuminate\Http\Request;
-use app\Models\Mail;
+use Illuminate\Support\Facades\Mail;
+
 
 class MailController extends Controller
 {
@@ -13,27 +14,28 @@ class MailController extends Controller
      */
     public function send(Request $request)
     {
-        //Valida i dati
+        //Validare i dati
         $request->validate([
-            "name"=> "required",
-            "email"=> "required|email",
-            "subject"=> "required",
-            "message"=> "required"]);
+            "name" => "required",
+            "email" => "required|email",
+            "subject" => "required|min:3",
+            "message" => "required|min:10"]);
 
 
-            //invia la mail
-            $data = [
-                'name' => $request->input('name'),
-                'email' => $request->input('email'),
-                'subject' => $request->input('subject'),
-                'message' => $request->input('message'),
-            ];
+        // Mappatura dei dati del modulo
+        $data = [
+            'name'=> $request->name,
+            'email'=> $request->input('email'),
+            'subject'=> $request->subject,
+            'message'=> $request->message,
+        ];
 
-            Mail::to('emanuelep.papale@gmail.com')->send(new ContactFormMail($data, $request->all()));
+        // Invia l'email
+        Mail::to($request->email)->send(new ContactFormMail($data));
 
-            return redirect()->route('index')->with('success', 'Mail inviata');
+        return redirect()->route('homepage')->with('success', 'Email inviata con successo');
     }
-     public function index()
+    public function index()
     {
         //
     }
@@ -57,7 +59,7 @@ class MailController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show( $id)
+    public function show($id)
     {
         //
     }
@@ -65,7 +67,7 @@ class MailController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit( $id)
+    public function edit($id)
     {
         //
     }
@@ -81,7 +83,7 @@ class MailController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy( $id)
+    public function destroy($id)
     {
         //
     }

@@ -11,6 +11,7 @@ class Mail extends Model
 {
     use HasFactory;
 
+    protected $data;
     protected $fillable = [
         'name',
         'email',

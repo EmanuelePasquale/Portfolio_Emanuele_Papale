@@ -63,7 +63,7 @@
                                     <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
                                         <span>emanuelep.papale@gmail.com</span>
                                     </li>
-                                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span></span>
+                                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>available</span>
                                     </li>
                                 </ul>
                             </div>

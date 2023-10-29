@@ -9,6 +9,7 @@
   --color-default: #fafafa;
   --color-primary: #27a776;
   --color-secondary: #161718;
+  --color-tertiary: #757678;
 }
 
 /* Smooth scroll behavior */
@@ -1123,9 +1124,9 @@ h6 {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
-  background-color: var(--color-secondary);
+  background-color: var(--color-tertiary);
   border: 1px solid #2e3133;
-  color: #fff;
+  color: #ffff;
 }
 
 .contact .php-email-form input {
