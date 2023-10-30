@@ -262,14 +262,14 @@
     width: 50vw;
     display: table;
     position: absolute;
-    background: rgba(39, 167, 118, 0.1);
+    background: rgba(39, 167, 118, 0.29);
     transform: rotate(45deg);
 }
 .square.square-tl{
     top: -70%;
     left: -15%;
     animation: bounce 6s infinite ease-in-out;
-    background: rgba(39, 167, 118, 0.1);
+    background: rgba(39, 167, 118, 0.3);
     z-index: 50;
 }
 .square.square-tr{

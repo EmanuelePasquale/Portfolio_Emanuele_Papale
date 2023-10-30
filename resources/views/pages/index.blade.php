@@ -1,10 +1,11 @@
 <x-main>
-
+<main class="overflow-hidden">
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade"
         data-aos-delay="1500">
+
         <div class="container">
-            <div class="row justify-content-center" style="height: 380px;">
+            <div class="row justify-content-center" style="height: 355px;">
                 <div class="col-lg-6 text-center">
                     <span>
                         <h2 id="testo" style="height: 40px;"></h2>
