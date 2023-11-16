@@ -89,8 +89,8 @@
                         "Ho assunto Emanuele per un progetto web complesso e sono rimasto incredibilmente impressionato dal suo livello di competenza. Ha dimostrato una conoscenza approfondita di tutti gli aspetti dello sviluppo web, dall'interfaccia utente al back-end. Il risultato finale ha superato di gran lunga le mie aspettative. Grazie mille per il tuo straordinario lavoro!"
                     </p>
                     <div class="profile mt-auto">
-                      <img src="assets\img\testimonials\testimonials-1.jfif" class="testimonial-img" alt="">
-                      <h3>Davide Cariola</h3>
+                      <img src="assets\img\testimonials\testimonials-1.jpg" class="testimonial-img" alt="">
+                      <h3>David Craiola</h3>
                       <h4>Coding Teacher "Aulab srl"</h4>
                     </div>
                   </div>
@@ -105,8 +105,8 @@
                         "Sono rimasto senza parole dal talento di Emanuele. Ha trasformato la mia visione in un sito web funzionale e accattivante. È stato paziente nel rispondere a tutte le mie domande e si è assicurato che il sito fosse esattamente come lo volevo. Non vedo l'ora di collaborare nuovamente in futuro."
                     </p>
                     <div class="profile mt-auto">
-                      <img src="assets\img\testimonials\testimonials-2.jfif" class="testimonial-img" alt="">
-                      <h3>Mattia Marino</h3>
+                      <img src="assets\img\testimonials\testimonials-2.jpg" class="testimonial-img" alt="">
+                      <h3>Mattew Marine</h3>
                       <h4>Ceo &amp; Founder - Javascript Teacher</h4>
                     </div>
                   </div>
@@ -121,8 +121,8 @@
                         "Se state cercando un Full Stack Developer competente e professionale, Emanuele è la scelta perfetta. Ha completato il nostro progetto in modo tempestivo e ha superato tutte le sfide tecniche che abbiamo incontrato lungo il percorso. È stato un piacere lavorare con lui e lo consiglio vivamente a chiunque abbia bisogno di servizi di sviluppo web di alta qualità."
                     </p>
                     <div class="profile mt-auto">
-                      <img src="assets\img\testimonials\testimonials-3.jfif" class="testimonial-img" alt="">
-                      <h3>Francesco Mansi</h3>
+                      <img src="assets\img\testimonials\testimonials-3.jpg" class="testimonial-img" alt="">
+                      <h3>Frank Mans</h3>
                       <h4>PHP/Laravel (Back-end) Teacher</h4>
                     </div>
                   </div>
@@ -137,8 +137,8 @@
                         "Non avrei potuto chiedere di più da Emanuele. La sua abilità nel combinare design e funzionalità è eccezionale. Il mio sito web ora ha un aspetto incredibile e funziona alla perfezione su tutte le piattaforme. È stato disponibile per risolvere i problemi e apportare modifiche quando necessario. Lo consiglio senza riserve!"
                     </p>
                     <div class="profile mt-auto">
-                      <img src="assets\img\testimonials\testimonials-4.jfif" class="testimonial-img" alt="">
-                      <h3>Antonio Buttiglione</h3>
+                      <img src="assets\img\testimonials\testimonials-4.jpg" class="testimonial-img" alt="">
+                      <h3>Antony Butlione</h3>
                       <h4>HTML/CSS/UI/UX Teacher - Freelancer</h4>
                     </div>
                   </div>
@@ -153,8 +153,8 @@
                         "Sono rimasto estremamente soddisfatto del lavoro di Emanuele. È un vero professionista con una vasta conoscenza dei linguaggi di programmazione e dei framework. Ha reso il processo di sviluppo del mio sito web un'esperienza senza stress ed è stato sempre pronto a ascoltare le mie idee. Grazie a lui, ora ho un sito web di cui sono fiero!"
                     </p>
                     <div class="profile mt-auto">
-                      <img src="assets\img\testimonials\testimonials-5.jfif" class="testimonial-img" alt="">
-                      <h3>Leonardo Loddo</h3>
+                      <img src="assets\img\testimonials\testimonials-5.jpg" class="testimonial-img" alt="">
+                      <h3>Leonard Lods</h3>
                       <h4>Js teacher - Consulente informatico</h4>
                     </div>
                   </div>

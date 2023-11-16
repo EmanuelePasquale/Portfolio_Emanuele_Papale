@@ -983,7 +983,7 @@ h6 {
 }
 
 .services .service-item:hover:before {
-  background: var(--color-primary);
+  background: var(--color-tertiary);
   right: 0;
   top: 0;
   width: 100%;
