@@ -18,7 +18,7 @@
       </nav><!-- .navbar -->
 
       <div class="header-social-links">
-        <a href="https://twitter.com/papale_manuel" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="https://twitter.com/papale_manuel" class="twitter"><i class="bi bi-twitter-x"></i></a>
         <a href="https://www.facebook.com/manu.el.754570/" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/manuel_salvador/" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="http://www.linkedin.com/in/emanuele-papale" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
