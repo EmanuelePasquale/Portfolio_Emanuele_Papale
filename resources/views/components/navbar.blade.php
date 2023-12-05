@@ -9,20 +9,15 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="{{ route('homepage') }}"  @if (Route::currentRouteName() == 'homepage') class='active' link-secondary disabled @endif>Home</a></li>
-          <li><a href="{{ route('about') }}" @if (Route::currentRouteName() == 'about') class='active' link-secondary disabled @endif>About</a></li>
-          <li><a href="{{ route('projects') }}" @if (Route::currentRouteName() == 'projects') class='active' link-secondary disabled @endif>Projects</a></li>
-          <li><a href="{{ route('services') }}" @if (Route::currentRouteName() == 'services') class='active'link-secondary disabled @endif>Services</a></li>
-          <li><a href="{{ route('contact') }}" @if (Route::currentRouteName() == 'contact') class='active'link-secondary disabled @endif>Contact</a></li>
+          <li><a href="{{ route('homepage') }}"  @if (Route::currentRouteName() == 'homepage') class='active home' link-secondary disabled @endif>Home</a></li>
+          <li><a href="{{ route('about') }}" @if (Route::currentRouteName() == 'about') class='active about' link-secondary disabled @endif>About</a></li>
+          <li><a href="{{ route('projects') }}" @if (Route::currentRouteName() == 'projects') class='active projects' link-secondary disabled @endif>Projects</a></li>
+          <li><a href="{{ route('services') }}" @if (Route::currentRouteName() == 'services') class='active services'link-secondary disabled @endif>Services</a></li>
+          <li><a href="{{ route('contact') }}" @if (Route::currentRouteName() == 'contact') class='active contact'link-secondary disabled @endif>Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
-      <div class="header-social-links">
-        <a href="https://twitter.com/papale_manuel" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://www.facebook.com/manu.el.754570/" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/manuel_salvador/" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="http://www.linkedin.com/in/emanuele-papale" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
+
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 

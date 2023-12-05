@@ -14,7 +14,7 @@
 
                         <button class='glowing-btn'>
                             <a href="{{ route('contact') }}" class="cta-btn"
-                                style="background: #2cbc85; box-shadow: 0 0 2rem #2cbc85;"><span
+                                style="background: #f2182e; box-shadow: 0 0 2rem #f2182e;"><span
                                     class='faulty-letter'>C</span>o<span class='faulty-letter'>n</span>tac<span
                                     class='faulty-letter'>t</span> m<span class='faulty-letter'>e</span></a>
                         </button>
@@ -39,13 +39,13 @@
                             operative in opportunità di efficienza.
                         </p>
                         <div class="row">
-                            <div class="col-lg-6 gx-5">
+                            <div class="col-lg-6">
                                 <ul>
                                     <li><i class="bi bi-chevron-right"></i><i class="bi bi-cake2"></i>
                                         <strong>Birthday:</strong> <span>30 June 1984</span>
                                     </li>
                                     <li><i class="bi bi-chevron-right"></i><i class="bi bi-globe2"></i>
-                                        <strong>Website:</strong> <span>www.example.com</span>
+                                        <strong>Website:</strong> <span>www.epdev.com</span>
                                     </li>
                                     <li><i class="bi bi-chevron-right"></i><i class="bi bi-telephone"></i>
                                         <strong>Phone:</strong> <span>+39 320 7913190</span>

@@ -89,7 +89,7 @@
                                 <div class="sent-message">Il tuo messaggio è stato inviato. Grazie!</div>
                             </div>
                             <div class="text-center"><button type="submit"
-                                    style="background: #2cbc85; box-shadow: 0 0 2rem #2cbc85;">Send Message</button>
+                                    style="background: #3566f8; box-shadow: 0 0 2rem #3566f8;">Send Message</button>
                             </div>
                         </form>
 

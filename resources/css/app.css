@@ -262,20 +262,22 @@
     width: 50vw;
     display: table;
     position: absolute;
-    background: rgba(39, 167, 118, 0.29);
+    background: rgba(224, 166, 242, 0.756);
     transform: rotate(45deg);
 }
 .square.square-tl{
     top: -70%;
     left: -15%;
     animation: bounce 6s infinite ease-in-out;
-    background: rgba(39, 167, 118, 0.3);
+    background: rgba(242, 24, 46, 0.5);
     z-index: 50;
 }
 .square.square-tr{
     top: 10%;
     right: -25%;
     animation: bounce 5s infinite ease-in-out;
+    background: rgba(252, 176, 24, 0.611);
+
 }
 .square.square-bl{
     bottom: -80%;
@@ -283,10 +285,10 @@
     animation: bounce 4s infinite ease-in-out;
 }
 .square.square-br{
-    bottom: -10%;
+    bottom: -30%;
     right: -30%;
     animation: bounce 3s infinite ease-in-out;
-    background: rgba(39, 167, 118, 0.488);
+    background: rgba(53, 102, 248, 0.718);
 }
 @keyframes bounce{
     0%{
@@ -313,14 +315,14 @@
     left: -30%;
     transform: rotate(-30deg);
     animation: sweep 4s infinite;
-    background: rgba(39, 167, 118, 0.5);
+    background: rgba(247, 247, 17, 0.5);
 }
 .star2{
     bottom: -30%;
     left: -10%;
     transform: rotate(-30deg);
     animation: sweep 3s infinite;
-    background: rgba(39, 167, 118, 0.515);
+    background: rgba(244, 17, 247, 0.515);
 }
 @keyframes sweep{
     100%{
@@ -333,35 +335,37 @@
 @media (max-width: 575px) {
 
 .square{
-    height: 35vh;
-    width: 35vw;
+    height: 30vh;
+    width: 40vw;
     display: table;
     position: absolute;
-    background: rgba(39, 167, 118, 0.29);
+    background: rgba(224, 166, 242, 0.756);
     transform: rotate(45deg);
 }
 .square.square-tl{
     top: -5%;
     left: -5%;
     animation: bounce 6s infinite ease-in-out;
-    background: rgba(39, 167, 118, 0.3);
+    background: rgba(242, 24, 46, 0.5);
     z-index: 50;
 }
 .square.square-tr{
     top: 17%;
-    right: -25%;
+    right: -30%;
     animation: bounce 5s infinite ease-in-out;
+    background: rgba(252, 176, 24, 0.811);
 }
 .square.square-bl{
     bottom: -5%;
     left: -30%;
     animation: bounce 4s infinite ease-in-out;
+
 }
 .square.square-br{
-    bottom: 30%;
-    right: -30%;
+    bottom: 10%;
+    right: -35%;
     animation: bounce 3s infinite ease-in-out;
-    background: rgba(39, 167, 118, 0.488);
+    background: rgba(53, 102, 248, 0.718);
 }
 @keyframes bounce{
     0%{
@@ -376,8 +380,8 @@
     }
 }
 .star{
-    height: 18px;
-    width: 18px;
+    height: 28px;
+    width: 28px;
     display: table;
     position: absolute;
     box-shadow: 0 0 5px 0 rgba(39, 167, 118, 0.5);
@@ -388,14 +392,14 @@
     left: -30%;
     transform: rotate(-30deg);
     animation: sweep 4s infinite;
-    background: rgba(39, 167, 118, 0.5);
+    background: rgba(247, 247, 17, 0.5);
 }
 .star2{
     bottom: -30%;
     left: -10%;
     transform: rotate(-30deg);
     animation: sweep 3s infinite;
-    background: rgba(39, 167, 118, 0.515);
+    background: rgba(244, 17, 247, 0.515);
 }
 @keyframes sweep{
     100%{

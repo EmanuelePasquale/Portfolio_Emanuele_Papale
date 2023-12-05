@@ -11,7 +11,7 @@
 
                 <button class='glowing-btn'>
                     <a href="{{ route('contact') }}" class="cta-btn"
-                        style="background: #2cbc85; box-shadow: 0 0 2rem #2cbc85;"><span
+                        style="background: #fcb018; box-shadow: 0 0 2rem #fcb018;"><span
                             class='faulty-letter'>C</span>o<span class='faulty-letter'>n</span>tac<span
                             class='faulty-letter'>t</span> m<span class='faulty-letter'>e</span></a>
                 </button>

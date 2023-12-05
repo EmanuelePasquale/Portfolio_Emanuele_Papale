@@ -29,6 +29,9 @@
 
                     <div class="col-lg-8">
                         <div class="portfolio-description">
+                            *per visualizzare questo e/o altri miei progetti, esplorate il mio Github.         <a href="https://github.com/EmanuelePasquale?tab=repositories" class="github"><i class="bi bi-github"></i></i></a>
+
+
                             <h5 style="color:#2cbc85;">Descrizione del Progetto:</h5>
 
                             <p>{{ $project['descrizione-progetto'] }}</p>
@@ -50,11 +53,9 @@
                             <div class="testimonial-item">
                                 <p>
                                     <i class="bi bi-quote quote-icon-left"></i>
-                                    Export tempor illum tamen malis malis eram quae irure esse labore quem
-                                    cillum quid
-                                    cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat
-                                    irure amet
-                                    legam anim culpa.
+                                    La vostra capacità di coniugare creatività e funzionalità ha prodotto un risultato
+                                    eccezionale. La navigazione fluida, il design accattivante e le innovative
+                                    funzionalità dimostrano un impegno straordinario verso l'eccellenza.
                                     <i class="bi bi-quote quote-icon-right"></i>
                                 </p>
                                 <div>
@@ -102,7 +103,7 @@
         </section><!-- End Gallery Single Section -->
 
     </main><!-- End #main -->
-    <!-- ======= Gallery All projects ======= -->
+    {{-- <!-- ======= Gallery All projects ======= -->
     <section id="gallery-single" class="gallery-single d-flex flex-column">
         <hr>
         <div class="container">
@@ -131,6 +132,6 @@
 
             </div>
         </div>
-    </section>
+    </section> --}}
 
 </x-main>
