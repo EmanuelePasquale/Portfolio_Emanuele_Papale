@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<x-navbar/>
 <html>
     <body style="background-color: #000; padding: 20px;">
         <div style=" padding: 30px 30px;background-color:#3e4247;height: 100%; border-radius: 15px;
@@ -12,5 +13,6 @@
 <p style="color: #fff; font-size:18px;">{{{$content['message']}}}</p>
 
         </div>
+        <x-footer/>
     </body>
 

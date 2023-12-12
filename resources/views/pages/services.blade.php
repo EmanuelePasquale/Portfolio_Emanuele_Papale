@@ -1,4 +1,5 @@
 <x-main>
+    <x-navbar/>
     <main id="main" data-aos="fade" data-aos-delay="1500">
 
         <!-- ======= Page Header ======= -->
@@ -168,5 +169,5 @@
         </section><!-- End Testimonials Section -->
 
       </main><!-- End #main -->
-
+      <x-footer/>
 </x-main>

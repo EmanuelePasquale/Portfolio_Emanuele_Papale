@@ -1,4 +1,5 @@
 <x-main>
+    <x-navbar/>
 
     <main id="main" data-aos="fade" data-aos-delay="1500">
         @if (session('success'))
@@ -99,7 +100,7 @@
 
             </div>
         </section><!-- End Contact Section -->
-
+        <x-footer/>
     </main>
 
 </x-main>

@@ -11,7 +11,11 @@
         <a href="https://github.com/EmanuelePasquale?tab=repositories" class="github"><i class="bi bi-github"></i></i></a>
       </div>
       <div class="credits">
-       Designed by <a href="#">Emanuele Papale</a>
+       Designed by <a href="{{ route('homepage') }}">Emanuele Papale</a>
       </div>
+      <div class="easter_egg">
+            <a href="{{ route('secret') }}"
+                style="background: transparent; box-shadow: 0 0 2rem white; font-size:10px; color: #3566f8;"><strong>If you are bored,click here</strong></a>
+    </div>
     </div>
   </footer>

@@ -11,6 +11,7 @@ Route::get('/', [PageController::class,'index'])->name('homepage');
 Route::get('/about', [PageController::class,'about'])->name('about');
 Route::get('/projects', [ProjectController::class,'projects'])->name('projects');
 Route::get('/services', [ServiceController::class,'services'])->name('services');
+Route::get('/secret_page', [PageController::class,'secret'])->name('secret');
 
 Route::get('/project-detail/{uri}', [ProjectController::class,'detail'])->name('project-detail');
 Route::get('/service-detail/{uri}', [ServiceController::class,'detail'])->name('service-detail');

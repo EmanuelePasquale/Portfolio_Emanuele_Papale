@@ -1,5 +1,5 @@
 <x-main>
-
+    <x-navbar/>
     <main id="main" data-aos="fade" data-aos-delay="1500">
 
         <!-- ======= End Page Header ======= -->
@@ -27,7 +27,7 @@
         <section id="gallery-single" class="gallery-single">
             <div class="container">
 
-                
+
 
                 <div class="row justify-content-between gy-4 mt-4">
 
@@ -91,5 +91,5 @@
         </section><!-- End Gallery Single Section -->
 
     </main><!-- End #main -->
-
+    <x-footer/>
 </x-main>

@@ -1,5 +1,5 @@
 <x-main>
-
+    <x-navbar/>
     <main id="main" data-aos="fade" data-aos-delay="1500">
      @csrf
         <!-- ======= Page Header ======= -->
@@ -51,4 +51,5 @@
         </section><!-- End Services Section -->
 
       </main><!-- End #main -->
+      <x-footer/>
 </x-main>

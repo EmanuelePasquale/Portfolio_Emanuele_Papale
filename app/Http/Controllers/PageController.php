@@ -26,4 +26,9 @@ public function contact() {
 
     return view('pages.contact');
 }
+
+public function secret() {
+
+    return view('pages.secret');
+}
 }

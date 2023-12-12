@@ -1,5 +1,5 @@
 <x-main>
-
+    <x-navbar/>
     <main id="main" data-aos="fade" data-aos-delay="1500">
         <!--------- Page Header --------->
         <div class="page-header d-flex align-items-center">
@@ -246,5 +246,5 @@
         </section><!-- End About 3° Section -->
 
     </main><!-- End #main -->
-
+    <x-footer/>
 </x-main>

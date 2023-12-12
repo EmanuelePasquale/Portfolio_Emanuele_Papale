@@ -1,4 +1,5 @@
 <x-main>
+    <x-navbar/>
 <main class="overflow-hidden">
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="hero d-flex flex-column justify-content-center align-items-center" data-aos="fade"
@@ -35,5 +36,5 @@
 
 
     </main><!-- End #main -->
-
+    <x-footer/>
 </x-main>
