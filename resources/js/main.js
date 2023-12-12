@@ -149,9 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-});
-
-const selectors = {
+  const selectors = {
     boardContainer: document.querySelector('.board-container'),
     board: document.querySelector('.board'),
     moves: document.querySelector('.moves'),
@@ -297,3 +295,7 @@ const attachEventListeners = () => {
 
 generateGame()
 attachEventListeners()
+
+
+});
+
