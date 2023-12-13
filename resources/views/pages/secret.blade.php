@@ -1,8 +1,7 @@
 <x-main>
     <div>
         <p class="paragraph">Did you remember when you were child?</p>
-        <div class="titles"> Take a breath, play and get relaxed!
-      </div>
+        <div class="titles"> Take a breath, play and get relaxed!</div>
         <div class="game">
             <div class="controlss">
                 <button class="buttonss">Start</button>

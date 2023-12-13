@@ -407,3 +407,81 @@
     }
 }
 }
+
+  /* Background animation - tablet view */
+
+  @media (max-width: 1024px) {
+
+    .square{
+        height: 30vh;
+        width: 30vw;
+        display: table;
+        position: absolute;
+        background: rgba(224, 166, 242, 0.756);
+        transform: rotate(45deg);
+    }
+    .square.square-tl{
+        top: -5%;
+        left: -8%;
+        animation: bounce 6s infinite ease-in-out;
+        background: rgba(242, 24, 46, 0.5);
+        z-index: 50;
+    }
+    .square.square-tr{
+        top: 17%;
+        right: -20%;
+        animation: bounce 5s infinite ease-in-out;
+        background: rgba(252, 176, 24, 0.811);
+    }
+    .square.square-bl{
+        bottom: -65%;
+        left: -15%;
+        animation: bounce 4s infinite ease-in-out;
+
+    }
+    .square.square-br{
+        bottom: -20%;
+        right: -20%;
+        animation: bounce 3s infinite ease-in-out;
+        background: rgba(53, 102, 248, 0.718);
+    }
+    @keyframes bounce{
+        0%{
+            transform: translateY(0px) rotate(45deg);
+        }
+        50%{
+            transform: translateY(20px) rotate(45deg);
+            border-radius: 50px;
+        }
+        100%{
+            transform: translateY(0px) rotate(45deg);
+        }
+    }
+    .star{
+        height: 28px;
+        width: 28px;
+        display: table;
+        position: absolute;
+        box-shadow: 0 0 5px 0 rgba(39, 167, 118, 0.5);
+        transition: 0.05s;
+    }
+    .star1{
+        bottom: -10%;
+        left: -30%;
+        transform: rotate(-30deg);
+        animation: sweep 4s infinite;
+        background: rgba(247, 247, 17, 0.5);
+    }
+    .star2{
+        bottom: -30%;
+        left: -10%;
+        transform: rotate(-30deg);
+        animation: sweep 3s infinite;
+        background: rgba(244, 17, 247, 0.515);
+    }
+    @keyframes sweep{
+        100%{
+            bottom: 120%; left: 120%; transform: rotate(360deg);
+        }
+    }
+    }
